@@ -21,13 +21,13 @@ public class ArrayTest
 
             if(userChoice >= highScore)
             {
-                total = total + userChoice;
+                total = userChoice;
                 highScore = userChoice;
                 count = count + 1;
             }
             else if(userChoice <= lowScore)
             {
-                total = total + userChoice;
+                total = userChoice;
                 lowScore = userChoice;
                 count = count + 1;
             }
